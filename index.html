@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <header>
+        <div class="logo" role="Logo">
+            <span aria-hidden="true" class="material-icons-outlined">
+                movie
+            </span>
+            <span class="logo-name">
+                USearch
+            </span>
+        </div>
+        <form id="search-form">
+            <input class="search-input" id="search-movie-input" type="text" placeholder="Search a movie" role="search" />
+            <button class="search-button" aria-label="submit search"><i aria-hidden="true" class="fa fa-search"></i></button>
+        </form>
+    </header>
+    <main id="movies-grid"></main>
+    
+    <script src="./index.js"></script>    
+</body>
+</html>
