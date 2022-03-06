@@ -1,4 +1,7 @@
+# Visit the app: https://lpontes8.github.io/moviesdb-fetch/
+
 App to search movie poster and ratings, using The Movies Database Api https://developers.themoviedb.org/3/getting-started/introduction.
+
 
 - Conditional CSS based on the rate of the movie.
 
